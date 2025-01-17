@@ -78,7 +78,7 @@ The primary users of this system are exam managers who can:
 ## Installation Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/automated-exam-system.git
+   git clone [https://github.com/your-repo/automated-exam-system.git](https://github.com/Eliraz-Madar/Question-DB.git)
    cd automated-exam-system
    ```
 2. **Set Up the Database**:
