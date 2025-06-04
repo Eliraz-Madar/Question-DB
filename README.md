@@ -81,12 +81,20 @@ The primary users of this system are exam managers who can:
     git clone https://github.com/Eliraz-Madar/Question-DB.git
     cd Question-DB
    ```
+   
 2. **Set Up the Database**:
    - Use the provided SQL scripts to create tables and insert sample data.
    - Ensure the database connection is properly configured in the application settings.
 
 3. **Run the Application**:
    - Compile and execute the project using your preferred IDE or command line.
+   - make sure to include the necessery javaFX jar's
+   - past this arguments in the run inviroment if needed
+   - modify %PATH_TO_FX% to the lib of the javaFX sdk
+     ```VM arguments
+     javac --module-path %PATH_TO_FX% --add-modules javafx.controls HelloFX.java
+     ```
+     
 
 ## Contribution Guidelines
 We welcome contributions to improve the Automated Examination System! To contribute:
