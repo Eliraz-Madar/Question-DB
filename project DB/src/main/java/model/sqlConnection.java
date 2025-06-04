@@ -21,7 +21,7 @@ public class sqlConnection {
             Connection conn = DriverManager.getConnection(url, userName, password);
             return conn;
         } catch(Exception e) {
-            System.out.println("Error getting connection in sqlConnection!");}
+            System.out.println("Error getting connection in sqlConnection!\n" + e);}
         return null;
     }
 
